@@ -40,4 +40,5 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=safe) as smtp:
         from_email,
         to_email,
         message.as_string()
+    
     )
